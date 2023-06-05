@@ -40,7 +40,7 @@ body{
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1020px) {
 
     body{
         background-color: #334155;
@@ -59,6 +59,37 @@ body{
     .txt{
         font-size: 20px;
         font-weight: bold;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+
+    body{
+        background-color: #334155;
+    }
+    #container{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        background-color: #334155;
+        
+    }
+    .digit{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .txt{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 7px 25px;
+        font-size: 15px;
+        margin: 0px ;
+        color: white;
+        border: 0px;
+        cursor: pointer;
+        border-radius: 20px;
     }
   }
 
